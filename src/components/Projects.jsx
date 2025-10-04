@@ -2,14 +2,14 @@ import SectionHeader from './SectionHeader'
 import Project from './Porject'
 import { Link } from 'react-router-dom'
 
-const ic = "/vid/ic.m4v";
-const whereitallbeginsDesktop = "/vid/whereitallbegins_desktop1.m4v";
-const elle = "/vid/elle.m4v";
-const a2030 = "/vid/2030.m4v";
-const italia = "/vid/aiesecItalia.m4v";
-const egypt = "/vid/egypt.m4v";
-const backend = "/vid/backend.m4v";
-const globalVillage = "/vid/globalVillage.m4v";
+const ic = "/portfolio/vid/ic.m4v";
+const whereitallbeginsDesktop = "/portfolio/vid/whereitallbegins_desktop1.m4v";
+const elle = "/portfolio/vid/elle.m4v";
+const a2030 = "/portfolio/vid/2030.m4v";
+const italia = "/portfolio/vid/aiesecItalia.m4v";
+const egypt = "/portfolio/vid/egypt.m4v";
+const backend = "/portfolio/vid/backend.m4v";
+const globalVillage = "/portfolio/vid/globalVillage.m4v";
 
 
 export default function Projects() {

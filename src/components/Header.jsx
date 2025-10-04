@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="h-20 w-full flex justify-center mt-5 items-end lg:items-start">
       <nav className="flex items-center justify-around p-4 bg-[#272523] rounded-[25px] h-14 w-[300px]">
-        <NavBarElement >
+        <NavBarElement name={"Home"} >
           <Link to='/'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ export default function Header() {
             </svg>
           </Link>
         </NavBarElement>
-        <NavBarElement>
+        <NavBarElement name={"Projects"} >
           <Link to='/projects'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function Header() {
             </svg>
           </Link>
         </NavBarElement>
-        <NavBarElement>
+        <NavBarElement name={"Experience"} >
           <Link to='/experience'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ export default function Header() {
             </svg>
           </Link>
         </NavBarElement>
-        <NavBarElement>
+        <NavBarElement name={"Tools"} >
           <Link to='/tools'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function Header() {
           </Link>
 
         </NavBarElement>
-        <a href="" className="bg-[#037EF3] text-white p-[5px] rounded-[25px] w-[78px] text-center">My CV</a>
+        <a href="https://omarrwiheb.github.io/portfolio/Omar_Rwiheb_CV.pdf" className="bg-[#037EF3] text-white p-[5px] rounded-[25px] w-[78px] text-center" target="_blank">My CV</a>
       </nav>
     </header>
   );

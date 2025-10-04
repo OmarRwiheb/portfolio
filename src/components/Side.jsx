@@ -4,13 +4,13 @@ import { faInstagram, faLinkedin, faFacebook, faGithub } from '@fortawesome/free
 
 
 
-const myImg = "/img/me.webp";
-const line1 = "/img/line1.svg";
-const line2 = "/img/line2.svg";
-const guitar = "/img/guitar.svg";
-const smile = "/img/smile.svg";
-const bottomLine = "/img/bottomLine.svg";
-const sideLine = "/img/sideLine.svg";
+const myImg = "/portfolio/img/me.webp";
+const line1 = "/portfolio/img/line1.svg";
+const line2 = "/portfolio/img/line2.svg";
+const guitar = "/portfolio/img/guitar.svg";
+const smile = "/portfolio/img/smile.svg";
+const bottomLine = "/portfolio/img/bottomLine.svg";
+const sideLine = "/portfolio/img/sideLine.svg";
 
 
 export default function Side({ display }) {
@@ -35,7 +35,7 @@ export default function Side({ display }) {
               <a href="https://www.instagram.com/omar_rwiheb/" target='_blank'><FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: '#037EF3' }} /></a>
             </div>
             <a href="mailto:omar.rwiheb@aiesec.it" className="bg-[#037EF3] text-white p-[5px] rounded-[25px] w-[200px] text-center">
-              Send me an email
+              Let's Talk
             </a>
           </div>
         </div>

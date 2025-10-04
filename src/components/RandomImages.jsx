@@ -1,14 +1,14 @@
 import { useState, useEffect, useRef } from "react";
 
 
-const img1 = "/img/stickers/image1.webp";
-const img2 = "/img/stickers/image2.webp";
-const img3 = "/img/stickers/image3.webp";
-const img4 = "/img/stickers/image4.webp";
-const img5 = "/img/stickers/image5.webp";
-const img6 = "/img/stickers/image6.webp";
-const img7 = "/img/stickers/image7.webp";
-const img8 = "/img/stickers/image8.webp";
+const img1 = "/portfolio/img/stickers/image1.webp";
+const img2 = "/portfolio/img/stickers/image2.webp";
+const img3 = "/portfolio/img/stickers/image3.webp";
+const img4 = "/portfolio/img/stickers/image4.webp";
+const img5 = "/portfolio/img/stickers/image5.webp";
+const img6 = "/portfolio/img/stickers/image6.webp";
+const img7 = "/portfolio/img/stickers/image7.webp";
+const img8 = "/portfolio/img/stickers/image8.webp";
 
 export default function RandomImages() {
   const containerRef = useRef(null);

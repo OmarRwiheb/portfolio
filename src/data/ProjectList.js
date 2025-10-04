@@ -1,21 +1,21 @@
-const whereitallbegins_list = ["/img/projects/whereitallbegins/ogv1.webp", "/img/projects/whereitallbegins/egypt1.webp", "/img/projects/whereitallbegins/ogv2.webp", "/img/projects/whereitallbegins/egypt2.webp"];
-const italia_list = ["/img/projects/aiesecItalia/4.webp", "/img/projects/aiesecItalia/5.webp", "/img/projects/aiesecItalia/1.webp", "/img/projects/aiesecItalia/2.webp", "/img/projects/aiesecItalia/3.webp"];
-const a2030_list = ["/img/projects/a2030/1.webp", "/img/projects/a2030/2.webp", "/img/projects/a2030/3.webp"];
-const egypt_list = ["/img/projects/egypt/1.webp", "/img/projects/egypt/2.webp", "/img/projects/egypt/3.webp"];
-const elle_list = ["/img/projects/elle/1.webp", "/img/projects/elle/2.webp", "/img/projects/elle/3.webp"];
-const backend_list = ["/img/projects/backend/1.webp", "/img/projects/backend/2.webp"];
+const whereitallbegins_list = ["/portfolio/img/projects/whereitallbegins/ogv1.webp", "/portfolio/img/projects/whereitallbegins/egypt1.webp", "/portfolio/img/projects/whereitallbegins/ogv2.webp", "/portfolio/img/projects/whereitallbegins/egypt2.webp"];
+const italia_list = ["/portfolio/img/projects/aiesecItalia/4.webp", "/portfolio/img/projects/aiesecItalia/5.webp", "/portfolio/img/projects/aiesecItalia/1.webp", "/portfolio/img/projects/aiesecItalia/2.webp", "/portfolio/img/projects/aiesecItalia/3.webp"];
+const a2030_list = ["/portfolio/img/projects/a2030/1.webp", "/portfolio/img/projects/a2030/2.webp", "/portfolio/img/projects/a2030/3.webp"];
+const egypt_list = ["/portfolio/img/projects/egypt/1.webp", "/portfolio/img/projects/egypt/2.webp", "/portfolio/img/projects/egypt/3.webp"];
+const elle_list = ["/portfolio/img/projects/elle/1.webp", "/portfolio/img/projects/elle/2.webp", "/portfolio/img/projects/elle/3.webp"];
+const backend_list = ["/portfolio/img/projects/backend/1.webp", "/portfolio/img/projects/backend/2.webp"];
 const globalVillage_list = [];
-const ic_list = ["/img/projects/ic/1.webp", "/img/projects/ic/2.webp", "/img/projects/ic/3.webp", "/img/projects/ic/4.webp", "/img/projects/ic/5.webp", "/img/projects/ic/6.webp", "/img/projects/ic/7.webp"];
+const ic_list = ["/portfolio/img/projects/ic/1.webp", "/portfolio/img/projects/ic/2.webp", "/portfolio/img/projects/ic/3.webp", "/portfolio/img/projects/ic/4.webp", "/portfolio/img/projects/ic/5.webp", "/portfolio/img/projects/ic/6.webp", "/portfolio/img/projects/ic/7.webp"];
 
 
-const ic = "/vid/ic.m4v";
-const whereitallbeginsDesktop = "/vid/whereitallbegins_desktop1.m4v";
-const italia = "/vid/italia_desktop.m4v";
-const elle = "/vid/elle.m4v";
-const a2030 = "/vid/2030_desktop.m4v";
-const egypt = "/vid/egypt_desktop.m4v";
-const backend = "/vid/backend.m4v";
-const globalVillage = "/vid/globalVillage_desktop.m4v";
+const ic = "/portfolio/vid/ic.m4v";
+const whereitallbeginsDesktop = "/portfolio/vid/whereitallbegins_desktop1.m4v";
+const italia = "/portfolio/vid/italia_desktop.m4v";
+const elle = "/portfolio/vid/elle.m4v";
+const a2030 = "/portfolio/vid/2030_desktop.m4v";
+const egypt = "/portfolio/vid/egypt_desktop.m4v";
+const backend = "/portfolio/vid/backend.m4v";
+const globalVillage = "/portfolio/vid/globalVillage_desktop.m4v";
 
 
 export const projectsList = [

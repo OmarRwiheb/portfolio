@@ -2,14 +2,14 @@ import StackField from "./StackField";
 import SectionHeader from "./SectionHeader";
 
 
-const reactLogo = "/img/stack/react.webp";
-const pythonLogo = "/img/stack/python.webp";
-const djangoLogo = "/img/stack/django.webp";
-const htmlLogo = "/img/stack/html.webp";
-const cssLogo = "/img/stack/css.webp";
-const appScriptLogo = "/img/stack/appScript.webp";
-const jsLogo = "/img/stack/js.webp";
-const tailwindLogo = "/img/stack/tailwind.webp";
+const reactLogo = "/portfolio/img/stack/react.webp";
+const pythonLogo = "/portfolio/img/stack/python.webp";
+const djangoLogo = "/portfolio/img/stack/django.webp";
+const htmlLogo = "/portfolio/img/stack/html.webp";
+const cssLogo = "/portfolio/img/stack/css.webp";
+const appScriptLogo = "/portfolio/img/stack/appScript.webp";
+const jsLogo = "/portfolio/img/stack/js.webp";
+const tailwindLogo = "/portfolio/img/stack/tailwind.webp";
 
 
 const techStack = [

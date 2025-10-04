@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import MyProjects from "./pages/MyProjects";
 import Tools from "./pages/Tools";
@@ -9,10 +9,10 @@ import ProjectPage from "./pages/ProjectPage";
 
 const App = () => {
   return (
-    <Router>
+    <>
       <div className="noise"></div>
       <Header></Header>
-      <Routes>
+      <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<MyProjects />} />
         <Route path="/tools" element={<Tools />} />
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/projects/:id" element={<ProjectPage />} />
       </Routes>
       <Footer></Footer>
-    </Router>
+    </>
   );
 };
 
